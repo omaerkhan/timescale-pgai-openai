@@ -1,3 +1,5 @@
+NOTE: THIS IS A WIP - DO NOT USE (It works sometimes, but sometimes gives errors - need to debug)
+
 # pgai on Railway
 
 ### TL;DR: Template to run [pgai](https://github.com/timescale/pgai) on [Railway](https://railway.com).
