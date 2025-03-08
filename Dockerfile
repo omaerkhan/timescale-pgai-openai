@@ -2,10 +2,6 @@ FROM timescale/timescaledb-ha:pg17
 
 USER root
 
-RUN cat /docker-entrypoint.sh
-
-RUN usermod -u 1000 postgres && groupmod -g 1000 postgres
-
 RUN echo '#!/bin/bash' > /wrapper.sh && \
     echo 'set -e' >> /wrapper.sh && \
     echo 'mkdir -p /home/postgres/pgdata/data' >> /wrapper.sh && \
